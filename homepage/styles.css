@@ -1,0 +1,104 @@
+
+
+            .bg-1 {
+               background-color: #EDC7B7;
+               color: #AC3B61;
+               font-family: Courier;
+               text-align: center;
+            }
+
+           .mask {
+               color: #AC3B61;
+               font-family: Courier;
+               text-align: center;
+           }
+            .bg-2 {
+               background-color: #EEE2DC;
+               color: black;
+               font-family: Courier;
+           }
+            .bg-3 {
+               background-color: #BAB2B5;
+               color: black;
+               font-family: Courier;
+           }
+
+           .bg-4 {
+               background-color: #123C69;
+               color: #EDC7B7;
+               font-family: Courier;
+               width: 100%;
+           }
+            .container-fluid {
+                padding-top: 70px;
+                padding-bottom: 70px;
+
+            }
+
+            .margin {
+                margin-bottom: 45px;
+                margin-top: 45px;
+            }
+
+            .navbar {
+                overflow: hidden;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                width: 100%;
+                top: 0;
+                font-size: 14px;
+                letter-spacing: 2px;
+                font-family: Courier;
+                color: #123C69;
+            }
+
+            .navbar-nav a {
+                float: left;
+                display: block;
+                padding: 14px 16px;
+            }
+
+            .navbar-nav li a:hover {
+                color: #AC3B61;
+            }
+
+           div4 {
+                margin-right: auto;
+                margin-left: auto;
+           }
+           img-pikachu {
+              height: 400px;
+              width: 400px;
+           }
+
+           img {
+             display: block;
+             width: 300px;
+             height: 300px;
+             margin-left: auto;
+             margin-right: auto;
+           }
+
+           .container-fluid {
+               padding-top: 70px;
+               padding-bottom: 70px;
+           }
+
+           h3 {
+               color: #AC3B61;
+           }
+
+           h2 {
+               color: #EEE2DC;
+           }
+
+           .map {
+               padding-top: 50px;
+               padding-bottom: 50px;
+           }
+
+
+
+
+
+

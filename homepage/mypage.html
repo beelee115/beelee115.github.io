@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>My New York</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg" style="background-color: #EEE2DC;">
+        <a class="navbar-brand" href="#">My New York</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="mypage.html">My Page <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="essay.html">My Essay <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="landmark.html">My Landmark <span class="sr-only">(current)</span></a>
+            </li>
+        </div>
+    </ul>
+  </div>
+</nav>
+    </body>
+
+    <body2>
+      <div class="container-fluid bg-1 text-center">
+        <h1>All About Me</h1>
+        <div class="container">
+          <img id="pikachu" class="img-thumbnail" img src="pikachupic.png">
+          <figcaption style="padding-top:10px">Fig.1 - This is I</figcaption>
+        </div>
+     </div>
+     <div class="container-fluid bg-2 text-center">
+       <h3>Who Am I?</h3>
+       <p>I am Jenylee Diaz, a 16-year-old hispanic woman living in Queens, New York. I attend school at Nest+m and am currently taking a computer science course! I like to play video games and to bother by birds: Devan and Phillip.</p>
+    </div>
+<!--breaking off into sections-->
+    <div class="container-fluid bg-3 text-center">
+      <h2 style="color: #123C69; padding-bottom:60px">Who are these fine specimen?</h2>
+        <div class="row">
+          <div class="col-sm-6">
+            <p2>Phillip</p2>
+            <img id="phillip" img src="phillip.jpg" alt="Image" style="padding: 30px; float;">
+              <table id="customers" table align="center">
+                <tr>
+                  <th>Species</th>
+                  <th>Habits</th>
+                  <th>Age</th>
+                </tr>
+                <tr>
+                  <td>Canary</td>
+                  <td>Hogging up the food</td>
+                  <td>Ten-years-old</td>
+                </tr>
+              </table>
+          </div>
+          <div class="col-sm-6">
+            <p2>Devan</p2>
+            <img src="devan.jpg" alt="Image" style="padding: 30px; float;">
+              <table id="customers" table align="center">
+                <tr>
+                  <th>Species</th>
+                  <th>Habits</th>
+                  <th>Age</th>
+                </tr>
+                <tr>
+                  <td>Finch</td>
+                  <td>Singing every five seconds</td>
+                  <td>Four-years-old</td>
+                </tr>
+              </table>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container-fluid bg-4 text-center">
+      <h4>My New York</h4>
+      <h4 style="font-size: 16px;">2147 29th St, Queens, NY 11105</h4>
+    </footer>
+   </body2>
+  </head>
+  <style>
+    #customers {
+      font-family: Courier;
+      border-collapse: collapse;
+      width: 50%;
+    }
+
+    #customers td, #customers th {
+      border: 1px solid #ddd;
+      padding: 10px;
+    }
+
+    #customers tr:nth-child(even){background-color: #EEE2DC;}
+
+    #customers tr:hover {background-color: #ddd;}
+
+    #customers th {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      text-align: left;
+      background-color: #123C69;
+      color: #EEE2DC;
+    }
+
+    #phillip {
+      padding-bottom: 10px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    p2 {
+      color: #123C69;
+    }
+</style>
+</html>
