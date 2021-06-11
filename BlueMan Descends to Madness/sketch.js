@@ -199,7 +199,7 @@ function checkGameOver() {
     noLoop()
 
     if (level == 1) { //changes to LEVEL 2
-      gamemap = gamemap2
+      gamemap = gamemap3
       c1 = color('#F0889B')
       c2 = color('#F2B575')
       tileSpriteSheet = tileSpriteSheet2
@@ -208,7 +208,7 @@ function checkGameOver() {
       level += 1
     }
     else if (level == 2) { //changes to LEVEL 3
-      gamemap = gamemap3
+      gamemap = gamemap2
       c1 = color('#383E60')
       c2 = color('#94554E')
       tileSpriteSheet = tileSpriteSheet3
